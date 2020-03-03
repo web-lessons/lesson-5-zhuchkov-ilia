@@ -1,0 +1,76 @@
+
+#header{
+    width: 690px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    float: bottom;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+#header h2{
+    font-size: 30pt;
+}
+#sidebar{
+    float: right;
+    width: 18%;
+    height: 600px;
+    border: 5px solid black;
+    padding-left: 10px;
+}
+
+#sidebar h3{
+    font-size: 18pt;
+}
+
+#sidebar a{
+    color: black;
+}
+#sidebar form input{
+     width: 110px;
+    margin-bottom: 10px;
+}
+
+#sidebar fieldset{
+    padding: 0px;
+    border: none;
+}
+
+#sidebar form{
+    border-top: 3px solid black;
+}
+
+#content{
+    width: 70%;
+    margin-left: 40px;
+}
+
+#not_footer{
+    display: table-row;
+    height: 100%;
+}
+
+#dangeon{
+    width: 640px;
+    background-color: black;
+    margin-top: 20px;
+    color:white;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#dangeon a{
+    color: white;
+}
+
+html,body{
+    margin:0;
+    height: 100%;
+}
+.gazeta{
+    width: 720px;
+    margin: 0px auto;
+    display: table;
+    height: 100%;
+}
