@@ -1,0 +1,78 @@
+body {
+    background: #FFF;
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Разметка страницы */
+#header {
+    width: 100%;
+    height: 90px;
+}
+
+.container {
+    margin: auto auto;
+    width: 80%;
+}
+
+#navigation {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+}
+
+#sidebar {
+    float: left;
+    width: 20%;
+    height: 280px;
+}
+
+#content {
+    float: right;
+    width: 77%;
+    text-align: justify;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+#clear {
+    clear: both;
+}
+
+#footer {
+    border-top: 1px solid #00409c;
+    width: 100%;
+    height: 40px;
+}
+
+/* Навигация */
+#navigation ul li {
+    display: inline;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#navigation ul li a:hover {
+    color: #ffa71e;
+}
+
+/* Контент */
+.first-p {
+    font-style: italic;
+}
+
+.red {
+    color: #ff0000;
+}
+
+#subscribe label {
+    font-weight: bold;
+}
+
+form .form-row{
+    margin-bottom: 15px;
+}
